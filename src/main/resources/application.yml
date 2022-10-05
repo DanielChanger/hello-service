@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: hello-service
+  config:
+    import: configserver:http://93.175.204.87:8888
+
